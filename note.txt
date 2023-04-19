@@ -4,4 +4,8 @@ cách kết nối Remote với local repo lại với nhau: dùng lệnh git rem
 
 
 các bước để đẩy code chúng ta lên Remote repo
-B1. Sẽ đẩy các file có sự thay đổi dùng lệnh git add +ten file nếu muốn đẩy từng file ,   git add . để đẩy taats cả file. để ktra sự thay đổi ta dùng git status
+B1. Sẽ đẩy các file có sự thay đổi dùng lệnh git add +ten file nếu muốn đẩy từng file ,   git add . để đẩy taats cả file. để ktra sự thay đổi ta dùng git status, nếu muốn hủy thì dùng git reset 
+
+B2. git commit -m "lời muốn nhắn"  lệnh này tạo ra commit để ghi chú lại sự thay đổi code. Muốn ktra các commit dùng lệnh git log
+
+B3. Đẩy code từ local repo lên remote repo để lưu trữ lần đầu sẽ dùng lệnh git push -u origin + tên nhánh , những lần sau chỉ cần git push origin
